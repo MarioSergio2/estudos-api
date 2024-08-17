@@ -1,5 +1,6 @@
 package com.example.estudos.controller;
 
+import com.example.estudos.exception.ResourceNotFoundException;
 import com.example.estudos.model.Curso;
 import com.example.estudos.service.CursoService;
 import org.springframework.beans.factory.annotation.Autowired;
